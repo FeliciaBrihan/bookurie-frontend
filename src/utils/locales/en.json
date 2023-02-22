@@ -1,0 +1,26 @@
+{
+	"app-menu": "Menu",
+
+	"budget-request": "Budget Request",
+	"my-requests": "My Requests",
+	"my-approvals": "My Approvals",
+	"all-requests": "All Requests",
+	"rules": "Rules",
+	"dashboard": "Dashboard",
+	"book-list": "Book List",
+	"user": "User",
+	"users": "Users",
+	"roles": "Roles",
+	"actions": "Actions",
+	"logout": "Logout",
+	"account-settings": "Account settings",
+	"my-account": "My account",
+	"social-profile": "Social Profile",
+	"loans": "Loans",
+	"purchases": "Purchases",
+	"books": "Books",
+	"permissions": "Permissions",
+	"raffle": "Raffle",
+	"prize": "Prize",
+	"subscriptions": "Subscriptions"
+}
