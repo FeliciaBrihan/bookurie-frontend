@@ -7,11 +7,9 @@ import { OverridableComponent } from '@mui/material/OverridableComponent';
 
 // project imports
 import { TablerIcon } from '@tabler/icons';
-import { TBudgetRequestStateProps } from './budgetRequest';
 
 import { SnackbarProps } from './snackbar';
 import { CartStateProps } from './cart';
-import { TCurrencyStateProps } from './currency';
 import { TPaymentTypeStateProps } from './paymentType';
 import { TUserStateProps } from './user';
 import { TRoleStateProps } from './roles';
@@ -127,8 +125,6 @@ export interface DefaultRootStateProps {
 	snackbar: SnackbarProps;
 	notistack: NotistackProps;
 	cart: CartStateProps;
-	budgetRequest: TBudgetRequestStateProps;
-	currency: TCurrencyStateProps;
 	paymentType: TPaymentTypeStateProps;
 	user: TUserStateProps;
 	role: TRoleStateProps;

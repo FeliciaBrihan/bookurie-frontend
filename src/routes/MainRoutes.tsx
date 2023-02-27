@@ -13,15 +13,14 @@ const ProductCheckout = Loadable(
 );
 
 const UserList = Loadable(lazy(() => import('views/user/UserList')));
-const RoleList = Loadable(lazy(() => import('views/user/RoleList')));
-const ActionList = Loadable(lazy(() => import('views/user/ActionList')));
+const RoleList = Loadable(lazy(() => import('views/role/RoleList')));
 const LoanList = Loadable(lazy(() => import('views/loan/LoanList')));
 const PurchaseList = Loadable(
 	lazy(() => import('views/purchase/PurchaseList'))
 );
-const BookList = Loadable(lazy(() => import('views/e-commerce/ProductList')));
+const BookList = Loadable(lazy(() => import('views/book/BookList')));
 const RaffleList = Loadable(lazy(() => import('views/raffle/RaffleList')));
-const PrizeList = Loadable(lazy(() => import('views/prize')));
+const PrizeList = Loadable(lazy(() => import('views/prize/PrizeList')));
 const SubscriptionList = Loadable(
 	lazy(() => import('views/subscription/SubscriptionList'))
 );
@@ -71,10 +70,6 @@ const MainRoutes = {
 		{
 			path: '/roles',
 			element: <RoleList />,
-		},
-		{
-			path: '/actions',
-			element: <ActionList />,
 		},
 		{
 			path: '/raffles',

@@ -28,7 +28,7 @@ import AddIcon from '@mui/icons-material/AddTwoTone';
 
 // project imports
 import MainCard from 'ui-component/cards/MainCard';
-import { useDispatch, useSelector } from 'store';
+import { dispatch, useSelector } from 'store';
 
 // assets
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -223,7 +223,6 @@ const EnhancedTableToolbar = ({
 
 const RoleList = () => {
 	const theme = useTheme();
-	const dispatch = useDispatch();
 	const [order, setOrder] = React.useState<ArrangementOrder>('asc');
 	const [orderBy, setOrderBy] = React.useState<string>('id');
 	const [selected, setSelected] = React.useState<number[]>([]);

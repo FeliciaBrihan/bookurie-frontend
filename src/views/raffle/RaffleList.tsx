@@ -37,7 +37,7 @@ import {
 } from 'types';
 import { raffleApi, deleteRaffle } from 'store/slices/raffle';
 import { TGetRaffle } from 'types/raffle';
-import PrizeList from 'views/prize';
+import PrizeList from 'views/prize/PrizeList';
 import { getUserFullName } from 'utils/helpers/getUserFullName';
 import { userApi } from 'store/slices/user';
 

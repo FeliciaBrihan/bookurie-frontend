@@ -42,7 +42,7 @@ import {
 } from 'types';
 import { TGetPurchase } from 'types/purchase';
 import { deletePurchase, purchaseApi } from 'store/slices/purchase';
-import PurchaseDetails from '../PurchaseDetails';
+import PurchaseDetails from './PurchaseDetails';
 import { getUserFullName } from 'utils/helpers/getUserFullName';
 import { userApi } from 'store/slices/user';
 
